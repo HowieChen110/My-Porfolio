@@ -1,0 +1,118 @@
+    Week5.png{
+        width: 30px;
+    }
+
+    week6.png{
+        width: 30px;
+    }
+
+    week7.png{
+        width: 30px;
+    }
+
+    .nav_bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 333px;
+    }
+
+
+    .left_links,
+    .right_links{
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+
+
+    }
+
+    .left_links a,
+    .right_links a{
+        color: black;
+        font-size: 32px;
+        text-decoration: none;
+    }
+
+    .right_links{
+        display: flex;
+
+    }
+
+    .nav_barimg{
+        height: 80px;
+    }
+
+    .cards{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        
+    }
+
+    .card{
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+    body{
+        background-color: aquamarine;
+    }
+
+    .content_section h1, .about_me_section h1, .pre-footer h1 {
+        width: 100%;
+        color: #373737;
+        border-top: 2px solid #373737;
+        border-bottom: 2px solid #373737;
+        font-size: 50px;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+      
+        .about_me_text {
+            font-size: 24px;
+            width: 600px;
+            padding: 30px;
+            border-radius: 20px;
+            background-color: rgb(0, 0, 0, 0.24);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin-left: 333px;
+        }
+
+        .about_me_text_container{
+            float: left;
+        }
+
+
+            .about_me_img {
+                width: 500px;
+                height: 100%;
+                border: 2px solid black;
+                border-top-left-radius: 400px;
+                border-top-right-radius: 400px;
+                border-bottom-left-radius: 50px;
+                border-bottom-right-radius: 50px;
+                object-fit: cover;
+                object-position: 80% 5%;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;float: right;
+                margin-right: 222px;
+                margin-top: 111px;
+            }
+
+
+.content_section h1, .MY_WORK h1, .pre-footer h1 ,.work_text{
+    width: 100%;
+    color: #373737;
+    border-top: 2px solid #373737;
+    border-bottom: 2px solid #373737;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;}
+
+
+.Work_Image{
+    margin: 0px auto;
+    display: block;
+    border-radius: 30px;
+}
